@@ -1,10 +1,4 @@
 .dp
 {
     border-radius: 100%;
-    border-block-color: black;
-}
-
-img:hover
-{
-    border-radius: 80%;
 }

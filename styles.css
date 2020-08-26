@@ -15,31 +15,39 @@ body
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+
+    text-align: center;
 }
 
 #name
 {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 5rem;
+    font-size: 7vw;
     font-weight: normal;
+    margin-top: 0px;
+}
+#im
+{
+    margin-bottom: 0px;
+    margin-top: 10vw;
 }
 
 .l1_heading
 {
     font-family: 'Dawning of a New Day', cursive;
-    font-size: 4rem;
+    font-size: 6vw;
     font-weight: normal;
 }
 .l2_heading
 {
     font-family: 'Allura', cursive;
-    font-size: 3rem;
+    font-size: 4vw;
     font-weight: normal;
 }
 .l3_heading
 {
     font-family: 'Allura', cursive;
-    font-size: 2.5rem;
+    font-size: 2vw;
     font-weight: normal;
 }
 
@@ -48,6 +56,7 @@ body
     background-image: url('assets/main_background.jpg');
     background-size: 100%;
     background-blend-mode: darken;
+    background-repeat: no-repeat;
 }
 
 
@@ -57,5 +66,4 @@ body
     display: inline-block;
     width: 100%;
     height: 100%;
-    
 }

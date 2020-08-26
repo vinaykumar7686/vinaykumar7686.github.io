@@ -1,12 +1,33 @@
+/*****************************< Backgrounds >**************************************/
 .main_background
 {
     background-color: rgb(212, 244, 252);
     transition-duration: 5000ms;
 }
+
+/*****************************< Images >**************************************/
 .dp
 {
     border-radius: 100%;
 }
+
+/*****************************< Lines >**************************************/
+.horizontal_dots
+{
+    border-style: dotted;
+
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 5;
+
+    border-color:darkgrey;
+
+    width: 10%;
+}
+
+
+/*****************************< Text and Headings >**************************************/
 
 .primary_heading
 {

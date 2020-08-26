@@ -1,0 +1,61 @@
+/*
+Fonts
+font-family: 'Allura', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Reenie Beanie', cursive;
+*/
+body
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#name
+{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.l1_heading
+{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 4rem;
+    font-weight: normal;
+}
+.l2_heading
+{
+    font-family: 'Allura', cursive;
+    font-size: 3rem;
+    font-weight: normal;
+}
+.l3_heading
+{
+    font-family: 'Allura', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.home_background
+{
+    background-image: url('assets/main_background.jpg');
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+
+
+
+.home
+{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    
+}

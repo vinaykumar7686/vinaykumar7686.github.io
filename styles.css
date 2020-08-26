@@ -1,8 +1,10 @@
 /*****************************< Backgrounds >**************************************/
 .main_background
 {
-    background-color: rgb(212, 244, 252);
-    transition-duration: 5000ms;
+    background-color: rgb(15, 15, 15);
+    color: rgb(180, 180, 180);
+    transition-duration: 1000ms;
+
 }
 
 /*****************************< Images >**************************************/

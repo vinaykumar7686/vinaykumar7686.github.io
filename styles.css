@@ -34,9 +34,10 @@ body
     margin-bottom: 0px;
     margin-top: 10vw;
 }
-.mac_img
+#profile_pic
 {
     width: 200px;
+    border-radius: 100%;
 
 }
 
@@ -55,7 +56,7 @@ body
 .l3_heading
 {
     font-family: 'Allura', cursive;
-    font-size: 2vw;
+    font-size: 2.75vw;
     font-weight: normal;
 }
 .normal_text
@@ -66,12 +67,16 @@ body
 
 .home_background
 {
-    background-image: url('assets/main_background.jpg');
-    background-size: 100%;
-    background-blend-mode: soft-light;
-    background-repeat: no-repeat;
-    min-height: 1080px;
+    height: auto;
+    width: 100%;
+    zoom: 0.1;
+}
 
+.home_data
+{
+    position: absolute;
+    left: 20%;
+    top: 0px;
 }
 
 .inline_block
@@ -86,13 +91,14 @@ body
 {
     display: inline-block;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .summary
 {
     width: 100%;
     height: 60%;
+    min-height: 500px;
 }
 
 .summary_img

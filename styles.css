@@ -8,6 +8,7 @@ font-family: 'Nothing You Could Do', cursive;
 font-family: 'Patrick Hand', cursive;
 font-family: 'Poiret One', cursive;
 font-family: 'Reenie Beanie', cursive;
+font-family: 'Nunito', sans-serif;
 */
 body
 {
@@ -17,6 +18,8 @@ body
     margin-bottom: 0px;
 
     text-align: center;
+    
+    background-color: rgb(238, 238, 238);
 }
 
 #name
@@ -30,6 +33,11 @@ body
 {
     margin-bottom: 0px;
     margin-top: 10vw;
+}
+.mac_img
+{
+    width: 200px;
+
 }
 
 .l1_heading
@@ -50,20 +58,50 @@ body
     font-size: 2vw;
     font-weight: normal;
 }
+.normal_text
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.75vw;
+}
 
 .home_background
 {
     background-image: url('assets/main_background.jpg');
     background-size: 100%;
-    background-blend-mode: darken;
+    background-blend-mode: soft-light;
     background-repeat: no-repeat;
+    min-height: 1080px;
+
 }
 
+.inline_block
+{
+    display: inline-block;
+    width: 75%;
+}
 
+/******************************< DIVS >**********************************/
 
 .home
 {
     display: inline-block;
     width: 100%;
     height: 100%;
+}
+
+.summary
+{
+    width: 100%;
+    height: 60%;
+}
+
+.summary_img
+{
+    margin-top: 3.5%;
+    display: inline-block;
+}
+.summary_txt
+{
+    display: inline-block;
+    width: 80%;
 }

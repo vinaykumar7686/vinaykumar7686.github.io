@@ -1,59 +1,147 @@
-/*****************************< Backgrounds >**************************************/
-.main_background
+/*
+Fonts
+font-family: 'Allura', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Nunito', sans-serif;
+*/
+body
 {
-    background-color: rgb(15, 15, 15);
-    color: rgb(180, 180, 180);
-    transition-duration: 1000ms;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 
+    text-align: center;
+    
+    background-color: rgb(238, 238, 238);
 }
 
-/*****************************< Images >**************************************/
-.dp
+#name
 {
-    border-radius: 100%;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 7vw;
+    font-weight: normal;
+    margin-top: 0px;
 }
-
-/*****************************< Lines >**************************************/
-.horizontal_dots
+#im
 {
-    border-style: dotted;
-
-    border-left-width: 0;
-    border-right-width: 0;
-    border-top-width: 0;
-    border-bottom-width: 5;
-
-    border-color:darkgrey;
-
+    margin-bottom: 0px;
+    margin-top: 10vw;
+}
+#profile_pic
+{
     width: 10%;
+    border-radius: 100%;
+    
+    margin-left: 10%;
+    
+    float: left;
+
 }
 
-
-/*****************************< Text and Headings >**************************************/
-
-.primary_heading
+.l1_heading
 {
-    font-size: 50;
-    font: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 6vw;
+    font-weight: normal;
 }
-
-.secondary_heading
+.l2_heading
 {
-    font-size: 25;
-    font: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Allura', cursive;
+    font-size: 4vw;
+    font-weight: normal;
 }
-
-.tertiary_heading
+.l3_heading
 {
-    font-size: 17;
-    font: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Allura', cursive;
+    font-size: max(20px, 2.75vw);
+    font-weight: normal;
 }
-
 .normal_text
 {
-    font-size: 15;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.75vw;
+}
+
+.home_background
+{
+    height: auto;
+    width: 100%;
+    zoom: 0.1;
+}
+
+.home_data
+{
+    position: absolute;
+    left: 20%;
+    top: 0px;
+}
+
+.inline_block
+{
+    display: inline-block;
+    width: 75%;
+}
+.no_margin_top
+{
+    margin-top: 0px;
+}
+.no_margin_bottom
+{
+    margin-bottom: 0px;
+}
+.no_margin_left
+{
+    margin-left: 0px;
+}
+.no_margin_right
+{
+    margin-right: 0px;
+}
+
+/******************************< DIVS >**********************************/
+.seperate
+{
+    width: 10%;
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px;
+
+    border-style: dotted;
+    border-color:#3B3355;
+}
+
+.home
+{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.summary
+{
+    width: 100%;
+    height: 60%;
+    min-height: 500px;
+}
+
+
+.summary_txt
+{
+    display: inline-block;
+    width: 80%;
+}
+
+/********************************< Colors >********************************/
+.color_1
+{
+    color: rgb(80, 19, 19);
 }

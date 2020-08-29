@@ -10,53 +10,85 @@ font-family: 'Poiret One', cursive;
 font-family: 'Reenie Beanie', cursive;
 font-family: 'Nunito', sans-serif;
 */
-body
+head, body
 {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-
+    height: 100%;
+    margin: 0px;
     text-align: center;
-    
-    background-color: rgb(238, 238, 238);
 }
+
+
+
+/******************************< Fonts >******************************************/
+.intro
+{
+    height: 100%;
+}
+.parallax
+{
+    /*background-image: url("assets/main_background.jpg");*/
+    background-image: url("assets/main_background.jpg");
+    background-color: rgb(238,238,238);
+    height : 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1
+{
+    /*background-image: url("assets/main_background.jpg");*/
+    background-image: url("assets/main_background.jpg");
+    background-color: rgb(238,238,238);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+}
+.anti_blur
+{
+    
+    -webkit-filter: blur(0px);
+}
+
 
 #name
 {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 7vw;
+    font-size: max(70px, 7vw);
     font-weight: normal;
-    margin-top: 0px;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
 }
 #im
 {
     margin-bottom: 0px;
-    margin-top: 10vw;
+    padding-top: max(275px,17vw);
 }
 
 .l1_heading
 {
     font-family: 'Dawning of a New Day', cursive;
-    font-size: 6vw;
+    font-size: max(60px, 6vw);
     font-weight: normal;
 }
 .l1_heading_2
 {
     font-family: 'Nunito', sans-serif;
-    font-size: 6vw;
+    font-size: max(60px, 6vw);
     font-weight: normal;
 }
 .l2_heading
 {
     font-family: 'Allura', cursive;
-    font-size: 4vw;
+    font-size: max(40px, 4vw);
     font-weight: normal;
 }
 .l3_heading
 {
     font-family: 'Allura', cursive;
-    font-size: max(20px, 2.75vw);
+    font-size: max(30px, 3vw);
     font-weight: normal;
 }
 .normal_text
@@ -65,25 +97,6 @@ body
     font-size: 1.75vw;
 }
 
-.home_background
-{
-    height: auto;
-    width: 100%;
-    zoom: 0.1;
-}
-
-.home_data
-{
-    position: absolute;
-    left: 20%;
-    top: 0px;
-}
-
-.inline_block
-{
-    display: inline-block;
-    width: 75%;
-}
 /*****************************************<Set Margin>**************************************/
 .set_margin_top
 {
@@ -106,11 +119,6 @@ body
     margin-right: 0px;
 }
 /****************************<Image Properties>************************************/
-.circular_image
-{
-    width: 10%;
-    border-radius: 100%;
-}
 .image_left
 {
     margin-left: 10%;
@@ -120,6 +128,10 @@ body
 {
     margin-right: 7.5%;
     float: right;
+}
+.circular_image
+{
+    border-radius: 100%;
 }
 /******************************< DIVS >**********************************/
 .seperate
@@ -133,27 +145,6 @@ body
 
     border-style: dotted;
     border-color:#3B3355;
-}
-
-.home
-{
-    display: inline-block;
-    width: 100%;
-    height: auto;
-}
-
-.summary
-{
-    width: 100%;
-    height: auto;
-    margin-bottom: 3%;
-}
-
-
-.summary_txt
-{
-    display: inline-block;
-    width: 80%;
 }
 
 /********************************< Colors >********************************/

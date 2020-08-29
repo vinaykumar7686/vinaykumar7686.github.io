@@ -19,15 +19,11 @@ head, body
 body
 {
     background-image: url("assets/main_background.jpg");
+    font-family: 'Nunito', sans-serif;
 }
 
 
-
-/******************************< Fonts >******************************************/
-.intro
-{
-    height: 100%;
-}
+/******************************<Specifics>*******************************************/
 .container0
 {
     /*background-image: url("assets/main_background.jpg");*/
@@ -49,7 +45,6 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
-
 }
 
 #im
@@ -65,7 +60,28 @@ body
     margin-top: 1vw;
     margin-bottom: 2vw;
 }
+#dp
+{
+    border-style: groove;
+    border-width: 9px;
+    border-color: silver;
+}
 
+.myname
+{
+    font-size: max(30px, 3vw);
+    font-weight: normal;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+.summary
+{
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+/******************************< Fonts >******************************************/
 
 .l1_heading
 {

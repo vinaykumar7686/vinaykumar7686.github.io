@@ -16,6 +16,10 @@ head, body
     margin: 0px;
     text-align: center;
 }
+body
+{
+    background-image: url("assets/main_background.jpg");
+}
 
 
 
@@ -24,10 +28,10 @@ head, body
 {
     height: 100%;
 }
-.parallax
+.container0
 {
     /*background-image: url("assets/main_background.jpg");*/
-    background-image: url("assets/main_background.jpg");
+    background-image: inherit;
     background-color: rgb(238,238,238);
     height : 100%;
     background-attachment: fixed;
@@ -35,24 +39,24 @@ head, body
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax1
+.container1
 {
     /*background-image: url("assets/main_background.jpg");*/
     background-image: url("assets/main_background.jpg");
-    background-color: rgb(238,238,238);
+    background-color: rgba(238, 238, 238, 0.9);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: blur(5px);
+    background-blend-mode: screen;
+
 }
-.anti_blur
+
+#im
 {
-    
-    -webkit-filter: blur(0px);
+    margin-bottom: 0px;
+    padding-top: max(250px,13vw);
 }
-
-
 #name
 {
     font-family: 'Nothing You Could Do', cursive;
@@ -61,11 +65,7 @@ head, body
     margin-top: 1vw;
     margin-bottom: 2vw;
 }
-#im
-{
-    margin-bottom: 0px;
-    padding-top: max(275px,17vw);
-}
+
 
 .l1_heading
 {
